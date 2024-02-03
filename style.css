@@ -1,0 +1,108 @@
+body {
+    background-image: url("./backgroundImage.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  #formModal{
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px;/*cation of the box*/
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0,0.4); /* Fallback color */
+    
+    
+  }
+  
+ 
+
+  form { 
+   
+    margin-top: 20px;
+    padding: 20px;
+    color: white;
+    max-width: fit-content;
+    background-color: rgba(27, 26, 26, 0.692);
+    border: 2px solid white;
+    border-radius: 10px;
+  }
+  input,
+  textarea {
+    margin-top: 20px;
+    border-radius: 5px;
+  }
+  input:hover {
+    background-color: rgba(249, 251, 252, 0.767);
+    background-position: center;
+  }
+  #user_email {
+    margin-left: 39px;
+  }
+  button {
+    background-color: rgba(255, 255, 255, 0);
+    border-radius: 10px;
+    border: 2px solid white;
+    width: 100px;
+    color: white;
+    /* box-shadow:5px 1px 7px white; */
+    cursor: pointer;
+  }
+  h1 {
+    text-align: center;
+  }
+  label[id="gender"] {
+    margin-left: 15px;
+  }
+  textarea {
+    margin-left: 85px;
+  }
+  input[type="date"] {
+    text-align: center;
+    width: 450px;
+  }
+  span {
+    color: red;
+  }
+  input[id="Age"] {
+    text-align: center;
+    width: 30px;
+  } 
+  .confirmPasswordClass{
+    border-color: rgb(140, 241, 140);
+    
+  }
+  .close{
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  .close:hover{
+    color: white;
+  }
+  button:active{
+    background-color: rgba(255, 255, 255, 0.541);
+    /* box-shadow:5px 1px 7px black; */
+    transform: scale(0.25);
+   
+  }
+  button:hover{
+    
+    /* box-shadow:5px 1px 7px black; */
+    transform: scale(1.1);
+    box-shadow:5px 1px 7px white;
+    
+  }
+ 
+  
+  #searchFirstName,#searchLastName,
+  #searchEmail,#searchGender,#searchMobile,
+  #searchAddress,#searchDateOfBrith,#searchQualification
+  ,#searchCourseName{
+    width: 80px;
+    
+  }
+  
